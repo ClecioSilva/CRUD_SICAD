@@ -1,0 +1,9 @@
+CREATE TABLE [dbo].[Aluno] (
+    [Codigo]             INT           IDENTITY (1, 1) NOT NULL,
+    [Nome]               NVARCHAR (50) NOT NULL,
+    [Data_Nasc]          INT           NOT NULL,
+    [Idade]              INT           NOT NULL,
+    [Objetivo_Graduacao] NVARCHAR (50) NOT NULL,
+    [Genero]             NVARCHAR (50) NOT NULL,
+    PRIMARY KEY CLUSTERED ([Codigo] ASC)
+);
